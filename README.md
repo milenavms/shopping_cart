@@ -25,9 +25,9 @@ npm install axios    //para carregar a api
 
 ## Subindo api local 
 
-api server
+projeto/db.json
 
-https://github.com/typicode/json-server
+[api server](https://github.com/typicode/json-server)
 
 ## Assistindo arquivos Sass
 
