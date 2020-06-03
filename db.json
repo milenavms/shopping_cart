@@ -26,6 +26,14 @@
     }
   ],
   "basket": [
-    
+    {
+      "id": 1,
+      "name": "nome do produto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+      "price": 29.9,
+      "stock": 5,
+      "quantity": "2"
+    }
   ]
 }

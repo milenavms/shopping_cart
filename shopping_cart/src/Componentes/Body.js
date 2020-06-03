@@ -2,44 +2,34 @@ import React, { Component } from 'react'
 import api from '../api/api.js';
 
 export default class Body extends Component {
-
-
-  state = {
-    products: [],
+  constructor(props) {
+    super(props);
+    this.state = {
+      products: [],
+      quantity: 0
+    }
+    this.handleClick = this.handleClick.bind(this)
+    this.handleChange = this.handleChange.bind(this);
   }
-
 
   async componentDidMount() {
     const response = await api.get('/products');
     this.setState({ products: response.data });
   }
 
-  // nome = 'evelym';
+  handleChange(event) {
+    this.setState({quantity: event.target.value})
+  }
 
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { name: ''};
-
-  //   // Aqui utilizamos o `bind` para que o `this` funcione dentro da nossa callback
-  //   this.handleClick = this.handleClick.bind(this);
-  // }
-
-  // handleClick(nome) {
-  //   console.log('botão foi clicado');
-  //   console.log(nome);
-  //  this.setState({
-  //     name: nome
-  //   });
-
-  //   api.post('/basket', { name: this.state.name });
-  // }
+  async handleClick(product, quantity) {
+    product.quantity = quantity;
+    const response = await api.post('/basket', product)
+    this.setState({quantity: 0})
+  }
 
   render() {
 
-    const { products } = this.state;
-
-    // const {nome} = this.nome;
-
+    const { products, quantity } = this.state;
 
     return (
       <div>
@@ -99,10 +89,10 @@ export default class Body extends Component {
                             </div>
                             <div class="form-group mx-sm-3 mb-2">
                               <label for="q" class="sr-only">Quantidade</label>
-                              <input type="text" class="form-control" id="q" placeholder="Informe a Quantidade" />
+                              <input type="text" class="form-control" id="q" placeholder="Informe a Quantidade" value={quantity} onChange={this.handleChange}/>
                             </div>
                            
-                            <button type="submit" class="btn btn-primary mb-2" >Comprar</button>
+                            <button type="submit" class="btn btn-primary mb-2" onClick={() => this.handleClick(product, quantity)}>Comprar</button>
                           </div>
 
 
