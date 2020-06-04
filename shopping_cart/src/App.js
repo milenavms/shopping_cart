@@ -12,18 +12,14 @@ class App extends Component {
 
   render(){     
     
-    //console.log(filmes);
-
     return (
-      <div>
+      <div> 
         <header>
-          <Navbar/>
+          <Navbar/> 
         </header> 
         <body>
           <Body/> 
-        </body>
-
-        
+        </body>        
       </div>
     );
   }
