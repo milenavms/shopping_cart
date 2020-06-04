@@ -2,38 +2,56 @@
   "products": [
     {
       "id": 1,
-      "name": "nome do produto",
+      "name": "Gel Higienizador Antisséptico Hi Clean",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
-      "price": 29.9,
+      "price": 24,
       "stock": 5
     },
     {
       "id": 2,
-      "name": "nome do produto 2",
+      "name": "Álcool Gel 70% Higienizante para as Mãos Giovanna Baby",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing eserunt.",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
-      "price": 19.9,
+      "price": 22.9,
       "stock": 2
     },
     {
       "id": 3,
-      "name": "nome do produto 3",
+      "name": "Álcool Gel 70 Antisséptico Ciclo Farma C/Válvula Pump",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing eia.",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
-      "price": 9.9,
+      "price": 7.21,
       "stock": 1
     }
   ],
   "basket": [
     {
-      "id": 1,
-      "name": "nome do produto",
+      "id": 5,
+      "name": "Gel Higienizador Antisséptico Hi Clean",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
-      "price": 29.9,
+      "price": 24,
       "stock": 5,
       "quantity": "2"
+    },
+    {
+      "id": 7,
+      "name": "Gel Higienizador Antisséptico Hi Clean",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+      "price": 24,
+      "stock": 5,
+      "quantity": "3"
+    },
+    {
+      "id": 2,
+      "name": "Gel Higienizador Antisséptico Hi Clean",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto velit sed, veniam ea hic esse amet ducimus aliquid eos temporibus repellat possimus tenetur laudantium dolores, minus at vitae rem.",
+      "price": 24,
+      "stock": 5,
+      "quantity": "7"
     }
   ]
 }

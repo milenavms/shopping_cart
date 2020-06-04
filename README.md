@@ -7,36 +7,39 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 React
 Sass
 Bootstrap 4.5.0
-jquery
-popper.js@^1.16.0
 axios
 
 ## Instalar as dependencias e iniciando projeto
 
-npm intall
+npm install
 
 npm start
 
+## Instalar as dependencias do Bootstrap
 
 npm install jquery bootstrap
 npm install  popper.js@^1.16.0
 
-npm install axios    //para carregar a api
+## Dependencia para carregar api
 
-## Subindo api local 
+npm install axios    
+
+## Subindo api local (json contendo os itens)
 
 projeto/db.json
 
-[api server](https://github.com/typicode/json-server)
+[json-server](https://github.com/typicode/json-server)
 
 ## Assistindo arquivos Sass
 
 sass --watch node_modules/bootstrap/scss:src/styles/css
 
 
-# Organização da interface
+# Organização do Projeto
 
-primeiro: navbar
-segundo: grid de 12px
-terceiro: 3 grids de 4px
-qurto: inserir modal no botão comprar
+ETAPAS
+primeiro:  Construção da interface com Bootstrap e Sass usando o framework React utilizando a porta 3006
+segundo:  Subir o arquivo json por meio da biblioteca json-server  utilizando a porta 3000
+terceiro: Consumir a api por meio do método GET para exibir os produtos
+Quarto: Implementação do método post para inserir os itens no carrinho de compras
+Quinto: Implementação do método delete para excluir os itens do carrinho de compras
