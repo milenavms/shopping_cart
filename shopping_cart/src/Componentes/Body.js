@@ -23,11 +23,16 @@ export default class Body extends Component {
 
   async handleClick(product, quantity) {
     product.quantity = quantity;
+    console.log(product);
     var numero_aleatorio = Math.random();
     product.id = Math.floor(numero_aleatorio * 10);
     const response = await api.post('/basket', product)
-    this.setState({ quantity: 0 })
+    this.setState({ quantity: 0 });
+    window.location.reload(false);
   }
+
+
+
 
   render() {
 
@@ -92,7 +97,7 @@ export default class Body extends Component {
                               <label for="q" class="sr-only">Quantidade</label>
                               <input type="text" class="form-control" id="q" placeholder="Informe a Quantidade" value={quantity} onChange={this.handleChange} />
                             </div>
-                            <button type="submit" class="btn btn-primary mb-2" onClick={() => this.handleClick(product, quantity)}>
+                            <button type="submit" class="btn btn-primary mb-2"  onClick={() => this.handleClick(product, quantity)}>
                               
                               Adicionar ao Carrinho
                               </button>
