@@ -92,7 +92,10 @@ export default class Body extends Component {
                               <label for="q" class="sr-only">Quantidade</label>
                               <input type="text" class="form-control" id="q" placeholder="Informe a Quantidade" value={quantity} onChange={this.handleChange} />
                             </div>
-                            <button type="submit" class="btn btn-primary mb-2" onClick={() => this.handleClick(product, quantity)}>Adicionar ao Carrinho</button>
+                            <button type="submit" class="btn btn-primary mb-2" onClick={() => this.handleClick(product, quantity)}>
+                              
+                              Adicionar ao Carrinho
+                              </button>
                           </div>
                         </div>
                       </div>
