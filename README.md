@@ -40,11 +40,11 @@ sass --watch node_modules/bootstrap/scss:src/styles/css
 
 # Organização do Projeto
 
-primeiro:  Construção da interface com Bootstrap e Sass usando o framework React utilizando a porta 3006
+Primeiro:  Construção da interface com Bootstrap e Sass usando o framework React utilizando a porta 3006
 
-segundo:  Subir o arquivo json por meio da biblioteca json-server  utilizando a porta 3000
+Segundo:  Subir o arquivo json por meio da biblioteca json-server  utilizando a porta 3000
 
-terceiro: Consumir a api por meio do método GET para exibir os produtos
+Terceiro: Usei a biblioteca "oxios" para consumir a api, em seguida foi utilizado do método GET e exibir os produtos
 
 Quarto: Implementação do método post para inserir os itens no carrinho de compras
 
