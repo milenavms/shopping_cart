@@ -44,7 +44,7 @@ Primeiro:  Construção da interface com Bootstrap e Sass usando o framework Rea
 
 Segundo:  Subir o arquivo json por meio da biblioteca json-server  utilizando a porta 3000
 
-Terceiro: Usei a biblioteca "oxios" para consumir a api, em seguida foi utilizado do método GET e exibir os produtos
+Terceiro: Usei a biblioteca "axios" para consumir a api, em seguida foi utilizado do método GET e exibir os produtos
 
 Quarto: Implementação do método post para inserir os itens no carrinho de compras
 
