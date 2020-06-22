@@ -38,7 +38,7 @@ projeto/db.json
 ```
 sass --watch node_modules/bootstrap/scss:src/styles/css
 ```
-### Histórias de usuários
+### Histórias do usuário
 - [x] O usuário deve  ver um card na página Produtos para cada Produto específico, mostrando a imagem do produto, o nome, uma breve descrição, o preço, e um botão "selecionar".
 - [x] o usuário deve ver uma página/card (após ter clicado em "selecionar") mostrando novamente o nome, descrição, preço e ter a opção de informar a quantidade do produto escolhido e um botão "comprar".
 - [x] o usuário deve ver um botão "carrinho de compras" mostrando todos os produtos selecionados, nome, quantidade e preço, por fim o total a ser pago.
