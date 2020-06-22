@@ -39,11 +39,11 @@ projeto/db.json
 sass --watch node_modules/bootstrap/scss:src/styles/css
 ```
 ### Histórias de usuários
-- [x] O usuário deve poder ver um card na página Produtos para cada Produto específico, mostrando a imagem do produto, o nome, uma breve descrição, o preço, e um botão "selecionar".
-- [x] o usuário deve ver uma página/card (após ter clicado em "selecionar") mostrando novamente o nome, descrção, preço e ter a opção de informar a quantidade do determinado produto escolhido e um botão "comprar".
-- [x] o usuário deve ver um botão "carrinho de compras" mostrando todos os produtos comprados, nome, quantidade e preço, por fim o total a ser pago.
-- [ ] O usuário pode ver um valor a ser pago de acordo com o cálculo da soma das quantidades multiplicadas pelo preço unitário de cada produto solicitado.
-- [x] O usuário pode excluir determinado produto do carrinho de compras.
+- [x] O usuário deve  ver um card na página Produtos para cada Produto específico, mostrando a imagem do produto, o nome, uma breve descrição, o preço, e um botão "selecionar".
+- [x] o usuário deve ver uma página/card (após ter clicado em "selecionar") mostrando novamente o nome, descrição, preço e ter a opção de informar a quantidade do produto escolhido e um botão "comprar".
+- [x] o usuário deve ver um botão "carrinho de compras" mostrando todos os produtos selecionados, nome, quantidade e preço, por fim o total a ser pago.
+- [ ] O usuário deve ver um valor a ser pago de acordo com o cálculo da soma das quantidades multiplicadas pelo preço unitário de cada produto solicitado.
+- [x] O usuário deve poder excluir determinado produto do carrinho de compras.
 ### Organização do Projeto
 
 **1.**  Construção da interface com Bootstrap e Sass usando o framework React utilizando a porta 3006
