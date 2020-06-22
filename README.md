@@ -27,6 +27,7 @@ projeto/db.json
 ```
 #install
 npm install -g json-server
+
 #executar na pasta que está o arquivo bd.json
 json-server --watch db.json
 
