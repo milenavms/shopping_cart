@@ -30,9 +30,9 @@ npm install -g json-server
 
 #executar na pasta que está o arquivo bd.json
 json-server --watch db.json
-
-### Assistindo arquivos Sass
 ```
+### Assistindo arquivos Sass
+
 sass --watch node_modules/bootstrap/scss:src/styles/css
 ```
 ### Histórias do usuário
