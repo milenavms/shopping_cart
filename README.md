@@ -5,7 +5,7 @@
 ![gifSite](https://user-images.githubusercontent.com/47642347/83709055-bae9bf00-a5eb-11ea-9b6e-8e950b69e5c5.gif)
 
 
-#### Tecnologias
+### Tecnologias
 
 * React
 * Sass
