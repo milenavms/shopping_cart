@@ -32,7 +32,7 @@ npm install -g json-server
 json-server --watch db.json
 ```
 ### Assistindo arquivos Sass
-
+```
 sass --watch node_modules/bootstrap/scss:src/styles/css
 ```
 ### Histórias do usuário
