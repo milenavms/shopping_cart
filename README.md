@@ -19,15 +19,6 @@ npm install
 npm start
 ```
 
-### Instalar as dependencias do Bootstrap
-```
-npm install jquery bootstrap
-npm install  popper.js@^1.16.0
-```
-### Dependência: Biblioteca axios para carregar a api
-```
-npm install axios    
-```
 ### Subindo api local (json contendo os itens)
 
 projeto/db.json
