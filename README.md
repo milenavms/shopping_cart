@@ -24,6 +24,11 @@ npm start
 projeto/db.json
 
 [json-server](https://github.com/typicode/json-server)
+```
+#install
+npm install -g json-server
+#executar na pasta que está o arquivo bd.json
+json-server --watch db.json
 
 ### Assistindo arquivos Sass
 ```
