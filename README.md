@@ -2,7 +2,7 @@
 
 ### Projeto de Carrindo de Compras
 
-![gifSite](https://user-images.githubusercontent.com/47642347/83709055-bae9bf00-a5eb-11ea-9b6e-8e950b69e5c5.gif)
+![shopping](https://user-images.githubusercontent.com/47642347/87826873-a6821e80-c847-11ea-87fe-ce0022338b7f.gif)
 
 
 ### Tecnologias
